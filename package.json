@@ -1,7 +1,7 @@
 {
-	"name": "@taugor/taugor-autodocs-models",
-	"version": "0.2.7",
-	"description": "Autodocs Models.",
+	"name": "@taugor/taugor-collectame-models",
+	"version": "0.2.8",
+	"description": "Collectame Models.",
 	"main": "dist/index.js",
 	"scripts": {
 		"prebuild": "rimraf ./dist",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/zerobytes/taugor-autodocs-models.git"
+		"url": "git+https://github.com/zerobytes/taugor-collectame-models.git"
 	},
 	"keywords": [
 		"taugor",
@@ -25,9 +25,9 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/zerobytes/taugor-autodocs-models/issues"
+		"url": "https://github.com/zerobytes/taugor-collectame-models/issues"
 	},
-	"homepage": "https://github.com/zerobytes/taugor-autodocs-models#readme",
+	"homepage": "https://github.com/zerobytes/taugor-collectame-models#readme",
 	"dependencies": {
 		"@zerobytes/firebase-basic-service": "^1.1.9",
 		"@zerobytes/object-model-js": "^0.3.2"
