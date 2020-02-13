@@ -1,0 +1,41 @@
+{
+	"name": "@taugor/taugor-autodocs-models",
+	"version": "0.2.7",
+	"description": "Autodocs Models.",
+	"main": "dist/index.js",
+	"scripts": {
+		"prebuild": "rimraf ./dist",
+		"build": "babel 'src' --out-dir 'dist' --copy-files"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zerobytes/taugor-autodocs-models.git"
+	},
+	"keywords": [
+		"taugor",
+		"corporation",
+		"models",
+		"package",
+		"set",
+		"common-ground"
+	],
+	"author": "Zerobyte",
+	"contributors": [
+		"guilherme.ferreira@zerobyte.app"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zerobytes/taugor-autodocs-models/issues"
+	},
+	"homepage": "https://github.com/zerobytes/taugor-autodocs-models#readme",
+	"dependencies": {
+		"@zerobytes/firebase-basic-service": "^1.1.9",
+		"@zerobytes/object-model-js": "^0.3.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.7.5",
+		"@babel/core": "^7.7.5",
+		"@babel/preset-env": "^7.7.6",
+		"rimraf": "^3.0.0"
+	}
+}
