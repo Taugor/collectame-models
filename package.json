@@ -1,6 +1,6 @@
 {
 	"name": "@taugor/taugor-collectame-models",
-	"version": "0.2.8",
+	"version": "1.0.0",
 	"description": "Collectame Models.",
 	"main": "dist/index.js",
 	"scripts": {
