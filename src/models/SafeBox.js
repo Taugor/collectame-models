@@ -10,6 +10,7 @@ class SafeBox extends ModelBase {
 			company: { type: FieldTypes.String, validate: () => true },
 			parent: { type: FieldTypes.String, validate: () => true },
 			name: { type: FieldTypes.String, validate: () => true },
+			groups: { type: FieldTypes.Array, validate: () => true },
 			description: { type: FieldTypes.String, validate: () => true },
 			dokiaId: { type: FieldTypes.String, validate: () => true },
 			dokiaIdentifier: { type: FieldTypes.String, validate: () => true },

@@ -56,6 +56,12 @@ function (_ModelBase) {
           return true;
         }
       },
+      groups: {
+        type: _objectModelJs.FieldTypes.Array,
+        validate: function validate() {
+          return true;
+        }
+      },
       description: {
         type: _objectModelJs.FieldTypes.String,
         validate: function validate() {
