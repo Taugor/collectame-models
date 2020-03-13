@@ -9,9 +9,14 @@ class SignatureProcess extends ModelBase {
 			company: { type: FieldTypes.String, validate: () => true },
 			safeBox: { type: FieldTypes.String, validate: () => true },
 			description: { type: FieldTypes.String, validate: () => true },
-			document: { type: FieldTypes.Object, validate: () => true },
-			signatories: { type: FieldTypes.Object, validate: () => true },
-			toNotifyOnConclusion: { type: FieldTypes.Object, validate: () => true }
+			document: { type: FieldTypes.Object, defaultValue: {}, validate: () => true },
+			signatories: { type: FieldTypes.Array, defaultValue: [], validate: () => true },
+
+			toNotifyOnConclusion: {
+				type: FieldTypes.Object,
+				defaultValue: {},
+				validate: () => true
+			}
 		};
 		this.$fill(properties);
 	}
