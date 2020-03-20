@@ -58,18 +58,21 @@ function (_ModelBase) {
       },
       document: {
         type: _objectModelJs.FieldTypes.Object,
+        defaultValue: {},
         validate: function validate() {
           return true;
         }
       },
       signatories: {
-        type: _objectModelJs.FieldTypes.Object,
+        type: _objectModelJs.FieldTypes.Array,
+        defaultValue: [],
         validate: function validate() {
           return true;
         }
       },
       toNotifyOnConclusion: {
         type: _objectModelJs.FieldTypes.Object,
+        defaultValue: {},
         validate: function validate() {
           return true;
         }

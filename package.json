@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://github.com/zerobytes/taugor-collectame-models#readme",
 	"dependencies": {
-		"@zerobytes/firebase-basic-service": "^1.1.9",
+		"@zerobytes/firebase-basic-service": "^1.2.23",
 		"@zerobytes/object-model-js": "^0.3.2"
 	},
 	"devDependencies": {
